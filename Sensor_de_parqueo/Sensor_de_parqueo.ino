@@ -80,7 +80,7 @@ void alerta(){
     LCD_Jixen.setCursor(0,1);
     LCD_Jixen.print("     libre   ");
     tone(buzzer, Fre, 260);
-    delay(500);
+    delay(1000);
     noTone(buzzer);
   }
 
@@ -104,7 +104,7 @@ void alerta(){
     LCD_Jixen.setCursor(0,1);
     LCD_Jixen.print("  Precaucion  ");
     tone(buzzer, Fre, 500);
-    delay(500);
+    delay(750);
     noTone(buzzer);
   }
 
